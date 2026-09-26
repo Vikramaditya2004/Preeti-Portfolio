@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Professional job portal managed by Preeti Kumari, Hiring Manager. Discover jobs and career opportunities.">
+
+    <title>Preeti Careers | Job Portal</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+    <div class="container nav-container">
+
+        <a href="#home" class="logo">
+            <span class="logo-icon">
+                <i class="fa-solid fa-briefcase"></i>
+            </span>
+
+            <span>
+                Preeti <span>Kumari</span>
+            </span>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home" class="active">Home</a>
+            <a href="#jobs">Jobs</a>
+            <a href="#categories">Categories</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <div class="nav-actions">
+            
+
+            <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+    </div>
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-decoration decoration-one"></div>
+    <div class="hero-decoration decoration-two"></div>
+
+    <div class="container hero-container">
+
+        <div class="hero-content">
+
+            <div class="hero-badge">
+                <i class="fa-solid fa-circle-check"></i>
+                Trusted Hiring Opportunities
+            </div>
+
+            <h1>
+                Find a job that
+                <span>fits your future.</span>
+            </h1>
+
+            <p>
+                Discover meaningful career opportunities from trusted
+                companies and connect with the right hiring team.
+            </p>
+
+            <!-- Search -->
+
+
+            <div class="popular-searches">
+                <span>Popular:</span>
+
+                <button data-search="Recruitment">
+                    Recruitment
+                </button>
+
+                <button data-search="Sales">
+                    Business Development
+                </button>
+
+                <button data-search="Customer Support">
+                    Team Building
+                </button>
+
+                <!-- <button data-search="HR">
+                    HR
+                </button> -->
+            </div>
+
+        </div>
+
+        <!-- Hero visual -->
+
+        <div class="hero-visual">
+
+            <div class="hero-card-main">
+
+                <div class="floating-icon icon-purple">
+                    <i class="fa-solid fa-user-tie"></i>
+                </div>
+
+                <div class="floating-icon icon-blue">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+
+                <div class="floating-icon icon-green">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+
+                <div class="person-placeholder">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+
+                <div class="hero-profile-card">
+                    <div class="mini-avatar">
+                        PK
+                    </div>
+
+                    <div>
+                        <strong>Preeti Kumari</strong>
+                        <small>Hiring Manager</small>
+                    </div>
+
+                    <i class="fa-solid fa-circle-check verified"></i>
+                </div>
+
+            </div>
+
+            <div class="floating-stat stat-one">
+                <strong>500+</strong>
+                <span>Job Openings</span>
+            </div>
+
+            <div class="floating-stat stat-two">
+                <strong>120+</strong>
+                <span>Teams</span>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= STATS ================= -->
+
+<section class="stats-section">
+
+    <div class="container stats-grid">
+
+        <div class="stat-item">
+            <div class="stat-icon">
+                <i class="fa-solid fa-briefcase"></i>
+            </div>
+
+            <div>
+                <strong>500+</strong>
+                <span>Active Jobs</span>
+            </div>
+        </div>
+
+        <div class="stat-item">
+            <div class="stat-icon">
+                <i class="fa-solid fa-building"></i>
+            </div>
+
+            <div>
+                <strong>120+</strong>
+                <span>Teams</span>
+            </div>
+        </div>
+
+        <!-- <div class="stat-item">
+            <div class="stat-icon">
+                <i class="fa-solid fa-users"></i>
+            </div>
+
+            <div>
+                <strong>10K+</strong>
+                <span>Job Seekers</span>
+            </div>
+        </div> -->
+
+        <div class="stat-item">
+            <div class="stat-icon">
+                <i class="fa-solid fa-handshake"></i>
+            </div>
+
+            <div>
+                <strong>95%</strong>
+                <span>Successful Hiring</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= JOBS ================= -->
+
+<section class="jobs-section section-padding" id="jobs">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+                <span class="section-label">OPPORTUNITIES</span>
+
+                <h2>Featured Jobs</h2>
+
+                <p>
+                    Explore the latest opportunities and find your next
+                    career move.
+                </p>
+            </div>
+
+            <button class="view-all-btn" id="viewAllBtn">
+                View All Jobs
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+        <div class="job-grid" id="jobGrid">
+
+            <!-- Job 1 -->
+
+            <article class="job-card"
+                     data-title="Recruitment"
+                     data-location="Kolkata"
+                     data-category="Development">
+
+                <div class="job-top">
+
+                    <div class="company-logo purple">
+                        T
+                    </div>
+
+                    <button class="bookmark-btn">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </button>
+
+                </div>
+
+                <div class="job-content">
+
+                    <span class="job-type">Full Time</span>
+
+                    <h3>Team Leader</h3>
+
+                    <p class="company-name">
+                        Aditya Birla Sun Life Insurance Pubic Ltd.
+                    </p>
+
+                    <div class="job-details">
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Kolkata
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-clock"></i>
+                            0-3 Years
+                        </span>
+                    </div>
+
+                    <!-- <div class="job-footer">
+
+                        <strong>
+                            ₹4–8 LPA
+                        </strong>
+
+                        <button class="apply-btn"
+                                data-job="Software Developer">
+                            Apply Now
+                        </button>
+
+                    </div> -->
+
+                </div>
+            </article>
+
+
+            <!-- Job 2 -->
+
+            <article class="job-card"
+                     data-title="Sales Executive"
+                     data-location="Kolkata"
+                     data-category="Sales">
+
+                <div class="job-top">
+
+                    <div class="company-logo blue">
+                        S
+                    </div>
+
+                    <button class="bookmark-btn">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </button>
+
+                </div>
+
+                <div class="job-content">
+
+                    <span class="job-type">Full Time</span>
+
+                    <h3>Recruiter</h3>
+
+                    <p class="company-name">
+                        Aditya Birla Sun Life Insurance Pubic Ltd.
+                    </p>
+
+                    <div class="job-details">
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Kolkata
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-clock"></i>
+                            0–2 Years
+                        </span>
+
+                    </div>
+
+                    <!-- <div class="job-footer">
+
+                        <strong>
+                            ₹3–5 LPA
+                        </strong>
+
+                        <button class="apply-btn"
+                                data-job="Sales Executive">
+                            Apply Now
+                        </button> -->
+
+                    </div>
+
+                </div>
+            </article>
+
+
+            <!-- Job 3 -->
+
+            <!-- <article class="job-card"
+                     data-title="UI UX Designer"
+                     data-location="Remote"
+                     data-category="Design">
+
+                <div class="job-top">
+
+                    <div class="company-logo pink">
+                        C
+                    </div>
+
+                    <button class="bookmark-btn">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </button>
+
+                </div>
+
+                <div class="job-content">
+
+                    <span class="job-type">Remote</span>
+
+                    <h3>UI/UX Designer</h3>
+
+                    <p class="company-name">
+                        Creative Labs
+                    </p>
+
+                    <div class="job-details">
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Remote
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-clock"></i>
+                            1–4 Years
+                        </span>
+
+                    </div>
+
+                    <div class="job-footer">
+
+                        <strong>
+                            ₹5–9 LPA
+                        </strong>
+
+                        <button class="apply-btn"
+                                data-job="UI/UX Designer">
+                            Apply Now
+                        </button>
+
+                    </div>
+
+                </div>
+            </article> -->
+
+
+            <!-- Job 4 -->
+
+            <!-- <article class="job-card"
+                     data-title="Customer Support Executive"
+                     data-location="Kolkata"
+                     data-category="Customer Support">
+
+                <div class="job-top">
+
+                    <div class="company-logo orange">
+                        F
+                    </div>
+
+                    <button class="bookmark-btn">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </button>
+
+                </div>
+
+                <div class="job-content">
+
+                    <span class="job-type">Full Time</span>
+
+                    <h3>Customer Support Executive</h3>
+
+                    <p class="company-name">
+                        FastServe India
+                    </p>
+
+                    <div class="job-details">
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Kolkata
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-clock"></i>
+                            0–2 Years
+                        </span>
+
+                    </div>
+
+                    <div class="job-footer">
+
+                        <strong>
+                            ₹2.5–4 LPA
+                        </strong>
+
+                        <button class="apply-btn"
+                                data-job="Customer Support Executive">
+                            Apply Now
+                        </button>
+
+                    </div>
+
+                </div>
+            </article> -->
+
+
+            <!-- Job 5 -->
+
+            <article class="job-card extra-job"
+                     data-title="HR Executive"
+                     data-location="Kolkata"
+                     data-category="HR">
+
+                <div class="job-top">
+
+                    <div class="company-logo green">
+                        H
+                    </div>
+
+                    <button class="bookmark-btn">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </button>
+
+                </div>
+
+                <div class="job-content">
+
+                    <span class="job-type">Full Time</span>
+
+                    <h3>HR Executive</h3>
+
+                    <p class="company-name">
+                        Aditya Birla Sun Life Insurance Pubic Ltd.
+                    </p>
+
+                    <div class="job-details">
+
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Kolkata
+                        </span>
+
+                        <span>
+                            <i class="fa-solid fa-clock"></i>
+                            1–3 Years
+                        </span>
+
+                    </div>
+
+                    <!-- <div class="job-footer">
+
+                        <strong>
+                            ₹3–6 LPA
+                        </strong>
+
+                        <button class="apply-btn"
+                                data-job="HR Executive">
+                            Apply Now
+                        </button> -->
+
+                    </div>
+
+                </div>
+            </article>
+
+
+            <!-- Job 6 -->
+
+           
+
+        </div>
+
+        <div class="no-results" id="noResults">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h3>No jobs found</h3>
+            <p>Try another keyword or location.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= CATEGORIES ================= -->
+
+<section class="categories-section section-padding" id="categories">
+
+    <div class="container">
+
+        <div class="section-heading centered">
+
+            <div>
+                <span class="section-label">EXPLORE</span>
+
+                <h2>Browse Job Categories</h2>
+
+                <p>
+                    Find opportunities based on your skills and interests.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="category-grid">
+
+            <button class="category-card" data-category="Development">
+                <div class="category-icon purple">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div>
+                    <h3>Recruitment</h3>
+                    <span>120+ Jobs</span>
+                </div>
+
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+
+
+            <button class="category-card" data-category="Design">
+                <div class="category-icon pink">
+                    <i class="fa-solid fa-pen-ruler"></i>
+                </div>
+
+                <div>
+                    <h3>Team Leader</h3>
+                    <span>45+ Jobs</span>
+                </div>
+
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+
+            <button class="category-card" data-category="Finance">
+                <div class="category-icon dark">
+                    <i class="fa-solid fa-coins"></i>
+                </div>
+
+                <div>
+                    <h3>Finance</h3>
+                    <span>30+ Jobs</span>
+                </div>
+
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= ABOUT / HIRING MANAGER ================= -->
+
+<section class="manager-section section-padding" id="about">
+
+    <div class="container manager-container">
+
+        <div class="manager-image">
+
+            <div class="profile-circle">
+                PK
+            </div>
+
+            <div class="experience-card">
+                <strong>Hiring</strong>
+                <span>Manager</span>
+            </div>
+
+        </div>
+
+
+        <div class="manager-content">
+
+            <span class="section-label">
+                MEET THE HIRING MANAGER
+            </span>
+
+            <h2>
+                Helping talented people
+                find the right opportunity.
+            </h2>
+
+            <p>
+                Hello, I'm <strong>Preeti Kumari</strong>, a Hiring Manager
+                focused on connecting talented professionals with
+                meaningful career opportunities.
+            </p>
+
+            <p>
+                This platform is designed to make job discovery easier,
+                more transparent, and more accessible for job seekers.
+            </p>
+
+            
+            <div class="manager-info">
+                
+                <a href="https://wa.me/916289460526?text=Hi">
+                <div>
+                    <i class="fa-solid fa-user-tie"></i>
+
+                    <span>
+                        <strong>Preeti Kumari</strong>
+                        Hiring Manager
+                    </span>
+                </div>
+                </a>
+
+                <a href="mailto:preetikumari22198@gmail.com">
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <span>
+                        <strong>Available for Hiring</strong>
+                        Recruitment & Talent
+                    </span>
+                </div>
+                </a>
+
+            </div>
+            
+
+            <a href="#contact" class="primary-btn">
+                Connect With Me
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="cta-section">
+
+    <div class="container">
+
+        <div class="cta-content">
+
+            <div>
+                <span class="section-label light">
+                    YOUR NEXT CAREER MOVE
+                </span>
+
+                <h2>
+                    Ready to find your next opportunity?
+                </h2>
+
+                <p>
+                    Explore available jobs and take the next step
+                    toward your career goals.
+                </p>
+            </div>
+
+            <a href="#jobs" class="cta-btn">
+                Explore Jobs
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact-section section-padding" id="contact">
+
+    <div class="container contact-container">
+
+        <div class="contact-content">
+
+            <span class="section-label">
+                GET IN TOUCH
+            </span>
+
+            <h2>
+                Let's connect.
+            </h2>
+
+            <p>
+                Have a recruitment question or want to discuss
+                an opportunity? Get in touch with Preeti Kumari.
+            </p>
+
+            <div class="contact-items">
+
+                <a href="mailto:preeti@example.com">
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <span>
+                        <small>Email</small>
+                        Connect on Email
+                    </span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/preeti-kumari-677471431?utm_source=share_via&utm_content=profile&utm_medium=member_android">
+                    <i class="fa-brands fa-linkedin-in"></i>
+
+                    <span>
+                        <small>LinkedIn</small>
+                        Connect on LinkedIn
+                    </span>
+                </a>
+
+                <a href="https://www.facebook.com/profile.php?id=61594195193660">
+                    <i class="fa-brands fa-facebook-f"></i>
+
+                    <span>
+                        <small>Facebook</small>
+                        Connect on Facebook
+                    </span>
+                </a>
+
+                <a href="https://wa.me/916289460526?text=Hi">
+                    <i class="fa-brands fa-solid fa-whatsapp"></i>
+
+                    <span>
+                        <small>Whatsapp</small>
+                        Connect on Whatsapp
+                    </span>
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="container footer-top">
+
+        <div class="footer-brand">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">
+                    <i class="fa-solid fa-briefcase"></i>
+                </span>
+
+                Preeti<span>Careers</span>
+            </a>
+
+            <p>
+                Connecting talented people with meaningful
+                career opportunities.
+            </p>
+
+            <div class="social-links">
+
+                <a href="https://www.linkedin.com/in/preeti-kumari-677471431?utm_source=share_via&utm_content=profile&utm_medium=member_android" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://wa.me/916289460526?text=Hi" aria-label="Whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://www.facebook.com/profile.php?id=61594195193660" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Quick Links</h4>
+
+            <a href="#home">Home</a>
+            <a href="#jobs">Jobs</a>
+            <a href="#categories">Categories</a>
+            <a href="#about">About</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Job Categories</h4>
+
+            <a href="#jobs">Recruiter</a>
+            <a href="#jobs">Team Leader</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Contact</h4>
+
+            <a href="mailto:preetikumari22198@gmail.com">
+                preetikumari22198@gmail.com
+            </a>
+
+            <span>
+                Kolkata, India
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <div class="container">
+
+            <p>
+                © <span id="currentYear"></span>
+                Preeti Careers. All rights reserved.
+            </p>
+
+            <p>
+                Site managed by <strong>Vikram</strong>
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
